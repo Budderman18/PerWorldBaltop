@@ -1,0 +1,43 @@
+name: PerWorldBaltop
+main: com.budderman18.perworldbaltop.main
+version: 1.0
+depend: [Vault]
+softdepend: [Multiverse-Core, MultiWorldMoney, Essentials]
+commands:
+   baltop:
+       description: View the top balances of the players in your world/world share
+       default: true
+   pwbt createGroup:
+       description: Create a new world share to share baltop with
+       default: op
+   pwbt deleteGroup:
+       description: Delete a world share
+       default: op
+   pwbt addWorld:
+       description: Add a world to an existing world share
+       default: op
+   pwbt removeWorld:
+       description: Remove a world from a world share
+       default: op
+   pwbt reload:
+       description: Reloads the plugin
+       default: op
+permissions:
+   pwbt.baltop:
+      description: Gives access to the baltop command
+      default: true
+   pwbt.createGroup:
+       description: Gives access to the createGroup command
+       default: op
+   pwbt.deleteGroup:
+       description: Gives access to the deleteGroup command
+       default: op
+   pwbt.addWorld:
+       description: Gives access to the addWorld command
+       default: op
+   pwbt.removeWorld:
+       description: Gives access to the removeWorld command
+       default: op 
+   pwbt.reload:
+       description: Gives access to the reload command
+       default: op
