@@ -1,0 +1,10 @@
+#dont touch
+version: 1.0
+
+#Create your own groups here!
+#Example:
+#  exampleGroup:
+#  - world
+groups:
+  exampleGroup:
+  - world

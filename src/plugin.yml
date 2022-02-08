@@ -7,20 +7,8 @@ commands:
    baltop:
        description: View the top balances of the players in your world/world share
        default: true
-   pwbt createGroup:
-       description: Create a new world share to share baltop with
-       default: op
-   pwbt deleteGroup:
-       description: Delete a world share
-       default: op
-   pwbt addWorld:
-       description: Add a world to an existing world share
-       default: op
-   pwbt removeWorld:
-       description: Remove a world from a world share
-       default: op
-   pwbt reload:
-       description: Reloads the plugin
+   pwbt:
+       description: displays the help menu
        default: op
 permissions:
    pwbt.baltop:
@@ -37,6 +25,9 @@ permissions:
        default: op
    pwbt.removeWorld:
        description: Gives access to the removeWorld command
+       default: op
+   pwbt.listGroups:
+       description: Gives access to the listGroups command
        default: op 
    pwbt.reload:
        description: Gives access to the reload command
